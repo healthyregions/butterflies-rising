@@ -29,20 +29,27 @@ body {
   max-width: 1400px;
 }
 
+
 .tm-site-title {
+ font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #cc0064;
   font-size: 3rem;
 }
 
 .tm-site-subtitle {
-  color: #0095bf;
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+    font-style: normal;
+  color: #dad8c9;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .tm-section-1 {
   height: 750px;
-  background-image: url(../img/greenmap.png);
+  background-image: url(../img/wildflowers.jpeg);
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
@@ -64,25 +71,32 @@ body {
 
 .tm-color-primary {
   color: #cc0064;
+  
 }
 
 .tm-color-secondary {
-  color: #0095bf;
+  color: #000000;
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #cc0064;
+  font-size: 2.5rem;
+
 }
 
 .tm-btn-primary {
   color: white;
-  background-color: #cc0064;
+    background-color: #000000;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
-  background-color: #f21b85;
+  background-color: #dad8c9;
 }
 
 .tm-btn-secondary {
   color: white;
-  background-color: #0095bf;
+  background-color: #000000;
 }
 
 .tm-btn-secondary:hover,
